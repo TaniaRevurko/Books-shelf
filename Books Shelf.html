@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>Книжная полка</title>
+<script src="js/JavaScr.js"></script>
+<link rel="stylesheet" href="css/caskad.css">
+</head>
+<body>
+<div class="shelfForBooks">
+<H1 class="shelf">Книжная полка</H1>
+<form>
+    <input type="button" value="Добавить книгу" id="addBook" onclick="showSectionAdd();"/>    
+</form>
+</div>
+<div id="fillTheBooks">
+</div>
+
+<div style="display: none;" id="sectionEdit">
+<div id="editBookName"> Редактирование книги </div>
+
+<form name="addEditForm">
+<span> Наименование </span><br/>
+<input type="text" value="" id="name" name="change"/><br/>
+<span> Автор </span> <br/>
+<input type="text" value="" id="author"/><br/>
+<span> Год выпуска </span> <br/>
+<input type="number" value="" max="2017" id="year"/><br/>
+<span> Изображение </span> <br/>
+<input type="text" value="" id="image"/><br/>
+<input type="button" value="Сохранить" id="save" onclick="limit()";/>
+<input type="button" value="Отменить" onclick="abolish();"/>
+
+</form>
+</div>
+
+<script>
+// Creation the table after page load
+refresh();
+</script>
+</body>
+</html>
