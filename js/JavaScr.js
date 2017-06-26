@@ -11,8 +11,8 @@ function refresh() {
   var tbl = '<table id="sectionBookTable">';
   for (i = 0; i < books.length; i++) {
     tbl += "<tr>";
-		tbl += "<td>";
-		tbl += '<img src="' + books[i][0] + '"alt="' + books[i][1] + '"/>';
+    tbl += "<td>";
+    tbl += '<img src="' + books[i][0] + '"alt="' + books[i][1] + '"/>';
     tbl += "</td>";
     tbl += "<td>";
     tbl += '<span class="bookName">' + books[i][1] + "</span><br/>";
@@ -44,9 +44,9 @@ function showSectionEdit(edit) {
   var editName;
   numberElem = edit;
   document.getElementById("image").value=books[edit][0];
-  document.getElementById("name").value=books[edit][1];    
-  document.getElementById("author").value=books[edit][2];  
-  document.getElementById("year").value=books[edit][3];  
+  document.getElementById("name").value=books[edit][1];
+  document.getElementById("author").value=books[edit][2];
+  document.getElementById("year").value=books[edit][3];
   ss = document.getElementById("sectionEdit");
   ss.style.display = "block";
   sh = document.getElementById("sectionBookTable");

@@ -6,14 +6,14 @@
 }
 
 body {  
-	background: #CCFFFF url(../img/booksbg3.jpeg) repeat;
-	font: verdana;
-	margin: 0;
+  background: #CCFFFF url(../img/booksbg3.jpeg) repeat;
+  font: verdana;
+  margin: 0;
 }
 
 #fillTheBooks, #sectionEdit {
   margin: auto 20%;
-	top: 20%;
+  top: 20%;
 }
 
 .shelfForBooks {  
