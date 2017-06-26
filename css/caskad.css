@@ -17,22 +17,22 @@ body {
 }
 
 .shelfForBooks {  
-	margin: 0% 20%;	
+  margin: 0% 20%;  
 }
 
 H1 {
-	font: bold 300% verdana;
-	color:#008080;
-	text-shadow: #FFFFFF 1px 1px 0, black -1px -1px 0; 
+  font: bold 300% verdana;
+  color:#008080;
+  text-shadow: #FFFFFF 1px 1px 0, black -1px -1px 0; 
                #FFFFFF -1px 1px 0, black 1px -1px 0;
 }
 
 div form input[type="button"] {
   border-radius: 20px;
-	width: 160px;
-	height: 50px;
-	font: bold 100% verdana;
-	color: #008080;
+  width: 160px;
+  height: 50px;
+  font: bold 100% verdana;
+  color: #008080;
 }
 
 tr:nth-child(2n) {
@@ -48,51 +48,51 @@ tr:nth-child(2n+1) {
 }
 
 #editBookName {
-	font: 20pt verdana;
-	color: #008080;	
-	width: 300px;
-	height: 30px;
-	height: 30px;	
+  font: 20pt verdana;
+  color: #008080;  
+  width: 300px;
+  height: 30px;
+  height: 30px;  
   text-shadow: #FFFFFF 1px 1px 0, black -1px -1px 0; 
                #FFFFFF -1px 1px 0, black 1px -1px 0;
-	white-space: nowrap;
+  white-space: nowrap;
 }
 .editBookForm {
-	font: 16pt verdana;
-	color: #008080;
+  font: 16pt verdana;
+  color: #008080;
 
 }
 
 #name, #year, #author, #image {
-	padding: 5px;	
+  padding: 5px;  
 }
 
 form input[type="text"] {
-	width: 500px;
-	height: 20px;
-	font: 12pt verdana;
+  width: 500px;
+  height: 20px;
+  font: 12pt verdana;
 }
 
 form input[type="number"] {
   width: 80px;
-	height: 20px;
-	font: 12pt verdana;
-}	
+  height: 20px;
+  font: 12pt verdana;
+}  
 
 #sectionEdit {
-	background: rgba(255, 218, 185, 0.6);
+  background: rgba(255, 218, 185, 0.6);
   padding: 20px;
   border-radius: 20px;
   width: 600px;
-  height: 450px;	
+  height: 450px;  
 }
 
 #sectionBookTable {
-  border-spacing: 0px;	
+  border-spacing: 0px;  
 }
 
 table td {
-	padding: 15px;
+  padding: 15px;
 }
 
 table tr:first-child td:first-child {
@@ -100,14 +100,13 @@ table tr:first-child td:first-child {
 }
 
 table tr:last-child td:last-child {
-	border-radius: 0px 0px 20px 0px;
+  border-radius: 0px 0px 20px 0px;
 }
 
 table tr:nth-child(1) td:nth-child(3) {
-	border-radius: 0px 20px 0px 0px;
+  border-radius: 0px 20px 0px 0px;
 }
 
 table tr:nth-child(4) td:nth-child(1) {
-	border-radius: 0px 0px 0px 20px;
+  border-radius: 0px 0px 0px 20px;
 }
-
