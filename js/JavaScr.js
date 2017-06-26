@@ -1,9 +1,9 @@
 // Initialization
 var books = [];  // Массив книг
-books[0] = ["http://static.my-shop.ru/product/2/37/362980.jpg", "Сложности новичка в сфере программирования", "Кирилл Монарков", 2015];
-books[1] = ["http://static.my-shop.ru/product/2/7/69424.jpg", "Программирование и математика", "Нататья Шифт", 2016];
-books[2] = ["imgs", "Как шагать по карьерной лестнице в большой компании? Советы и необходимые навыки", "David What", 2015];
-books[3] = ["imgs", "А будет ли просто? Советы новичкам от профессионалов", "Дмитрий Шмелев", 2017];
+books[0] = ["http://static.my-shop.ru/product/2/37/362980.jpg", "Web-программирование для всех", "Владимир Дунаев", 2005];
+books[1] = ["http://static.my-shop.ru/product/2/7/69424.jpg", "Web-программирование на Java и JavaScript", "Александр Гарнаев", 2016];
+books[2] = ["http://static.my-shop.ru/product/2/33/321245.jpg", "Введение в прикладное дискретное программирование: модели и вычислительные алгоритмы", "Анна Иванова ", 2008];
+books[3] = ["http://static.my-shop.ru/product/2/45/443036.jpg", "Программирование для мобильных устройств под управлением Windows Mobile", "Александр Климов ", 2009];
 var numberElem = 0; // Номер элемента, который редактируется
 
 // Функция добавляющая таблицу на экран
@@ -99,21 +99,13 @@ function saveChanges() {
   }
   refresh();
 	abolish();	
-}	
+}
 
+// Запрещение ввода года больше 2017, сохранение изменений при добавлении/редактировании
 function limit() {
-if (+document.getElementById("year").value > 2017) {
-  alert ('Год не может быть больше 2017');
-} else {
-  saveChanges();
-}
-}
-
-function limitYear() {
-  var year = +document.getElementById("year").value;
-  if (year > 2017) {
-	  alert ('Год не может быть больше 2017');
+  if (+document.getElementById("year").value > 2017) {
+    alert ('Год не может быть больше 2017');
   } else {
-	  return;
-	}
+    saveChanges();
+  }
 }
